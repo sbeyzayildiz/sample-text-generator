@@ -5,6 +5,7 @@
   align-items: center;
   background-color: #282c34;
   min-height: 100vh;
+  padding: 10vh 0;
 
 }
 
@@ -16,10 +17,16 @@
   color: white;
 }
 
+.container {
+  width: 60vw;
+  margin: 0 auto;
+}
+
 .App-selections {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  margin-bottom: 4vh;
 }
 
 .App-selections label{
@@ -29,6 +36,23 @@
   color: #ffff;
 }
 
+.number-input {
+  height: 21px;
+  padding: 4px;
+  margin-right: 12px;
+}
+
+.selection {
+  padding: 6px;
+}
+
+.output-paragraph {
+  background-color: #303030;
+  color: #fff;
+  padding: 4vh;
+}
+
 hr {
-  width: 50vw;
+  width: 60vw;
+  margin: 2vh;
 }
